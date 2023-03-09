@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: test-gb--ui
+  name: test-gb-ui
 spec:
   replicas: 1
   revisionHistoryLimit: 3
@@ -11,11 +11,11 @@ spec:
   template:
     metadata:
       labels:
-        app: test-gb--ui
+        app: test-gb-ui
     spec:
       containers:
       - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
-        name: test-gb--ui
+        name: test-gb-ui
         ports:
         - containerPort: 80
         resources:
