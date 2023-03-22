@@ -21,4 +21,4 @@ spec:
         path: guestbook
       destination:
         server: '{{url}}'
-        namespace: de
+        namespace: default
