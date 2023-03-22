@@ -17,8 +17,8 @@ spec:
       project: default
       source:
         repoURL: https://github.com/marina-vrublevsky/test-repo.git
-        targetRevision: HEAD
-        path: guestbook/test
+        targetRevision: main
+        path: guestbook
       destination:
         server: '{{url}}'
-        namespace: guestbook
+        namespace: de
