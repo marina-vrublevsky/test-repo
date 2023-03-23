@@ -17,3 +17,6 @@ spec:
       destination:
         server: '{{url}}'
         namespace: default
+      syncPolicy:
+        automated:
+          selfHeal: true
