@@ -2,13 +2,11 @@ apiVersion: v1
 kind: Service
 metadata:
   name: guestbook
+  labels:
+    environment: test
 spec:
   ports:
   - port: 80
     targetPort: 80
   selector:
     app: guestbook
-  template:
-    metadata:
-      labels:
-        test: test_label
