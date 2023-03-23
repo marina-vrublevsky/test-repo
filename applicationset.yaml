@@ -4,12 +4,7 @@ metadata:
   name: guestbook
 spec:
   generators:
-  - list:
-      elements:
-      - cluster: test-marina
-        url: https://kubernetes.default.svc
-      - cluster: test-avishay
-        url: https://34.28.174.107
+  - clusters: {}
   template:
     metadata:
       name: '{{cluster}}-guestbook'
