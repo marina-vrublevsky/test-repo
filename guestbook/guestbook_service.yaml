@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: guestbook
   labels:
-    environment: test6
+    environment: test7
 spec:
   ports:
   - port: 80
