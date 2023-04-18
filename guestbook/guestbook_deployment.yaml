@@ -28,7 +28,7 @@ spec:
       - image: gcr.io/heptio-images/ks-guestbook-demo:0.1
         name: guestbook-test
         ports:
-        - containerPort: 80
+        - containerPort: 5000
         resources:
             requests:
                 cpu: 20m
