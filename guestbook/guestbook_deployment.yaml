@@ -25,10 +25,8 @@ spec:
             limits:
                 cpu: 50m
                 memory: 0.1Gi
-      - image: gcr.io/heptio-images/ks-guestbook-demo:0.1
-        name: guestbook-test
-        ports:
-        - containerPort: 5000
+      - image: nginx
+        name: nginx
         resources:
             requests:
                 cpu: 20m
