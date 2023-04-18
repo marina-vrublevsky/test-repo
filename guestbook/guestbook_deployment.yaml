@@ -25,12 +25,4 @@ spec:
             limits:
                 cpu: 50m
                 memory: 0.1Gi
-      - image: nginx
-        name: nginx
-        resources:
-            requests:
-                cpu: 20m
-                memory: 0.1Gi
-            limits:
-                cpu: 50m
-                memory: 0.1Gi
+
