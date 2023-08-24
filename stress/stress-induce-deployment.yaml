@@ -22,7 +22,7 @@ spec:
             memory: "512Mi"
             cpu: "500m"
           requests:
-            cpu: "100m"
+            cpu: "50m"
             memory: "256Mi"
         command: ["stress"]
         args: ["-v", "--vm", "1", "--vm-bytes", "50M", "--vm-hang", "4"]
